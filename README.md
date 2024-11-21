@@ -1,5 +1,3 @@
-# Test
-Just testing 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +16,7 @@ Just testing
         h1 {
             font-size: 50px;
             color: #4CAF50;
-            animation: moveWords 5s infinite alternate;
+            animation: moveWords 20s infinite alternate; /* Slower duration */
         }
 
         @keyframes moveWords {
@@ -28,7 +26,7 @@ Just testing
             50% {
                 transform: translateX(-100%); /* Move to the left */
             }
-            50% {
+            100% {
                 transform: translateX(100%); /* Return to the right */
             }
         }
@@ -38,4 +36,5 @@ Just testing
     <h1>The World is Yours</h1>
 </body>
 </html>
+
 
