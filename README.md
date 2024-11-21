@@ -28,7 +28,7 @@ Just testing
             50% {
                 transform: translateX(-100%); /* Move to the left */
             }
-            100% {
+            50% {
                 transform: translateX(100%); /* Return to the right */
             }
         }
